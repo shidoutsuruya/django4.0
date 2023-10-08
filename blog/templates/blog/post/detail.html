@@ -1,0 +1,9 @@
+{%extends "blog/base.html"%}
+{%block title%}{{post.title}}{%endblock%}
+{%block content%}
+<a href="{% url 'blog:post_list'%}">{{post.title}}</a>
+<p class="date">
+    published {{post.publish}} by {{post.author}}
+</p>
+{{post.body}}
+{%endblock%}
