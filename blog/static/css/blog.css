@@ -5,12 +5,12 @@ body {
 }
 
 a { 
-    color:#00abff;
+    color:blue;
     text-decoration:none; 
 }
 
 h1 { 
-    color:aqua;
+    color:rgb(5, 9, 250);
     font-weight:normal;
     border-bottom:1px solid #8cd6e9;
     padding:0 0 10px 0;
@@ -59,14 +59,14 @@ input, textarea {
     clear:both;
     float:left;
     margin:0 0 10px;
-    background:#ededed;
+    background:#55ff55;
     border:0;
     padding:6px 10px;
     font-size:12px;
 }
 input[type=submit] {
     font-weight:bold;
-    background:#00abff;
+    background:#ff5d5d;
     color:#fff;
     padding:10px 20px;
     font-size:14px;
