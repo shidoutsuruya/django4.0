@@ -10,9 +10,9 @@ a {
 }
 
 h1 { 
-    color:rgb(5, 9, 250);
+    color:rgb(119, 0, 255);
     font-weight:normal;
-    border-bottom:1px solid #8cd6e9;
+    border-bottom:1px solid #f9ffa1;
     padding:0 0 10px 0;
 }
 
@@ -31,7 +31,7 @@ h2 {
     float:right;
     width:30%;
     padding:10px;
-    background:#4375b8; 
+    background:#ff895b; 
     height:100%;
 }
 
@@ -59,7 +59,7 @@ input, textarea {
     clear:both;
     float:left;
     margin:0 0 10px;
-    background:#55ff55;
+    background:#d8dad8;
     border:0;
     padding:6px 10px;
     font-size:12px;
