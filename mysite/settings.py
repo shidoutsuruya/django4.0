@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+SITE_ID=1
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,7 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #add apps
     'blog.apps.BlogConfig',
-    'taggit'
+    'taggit',
+    #sitemap
+    "django.contrib.sites",
+    "django.contrib.sitemaps",
+    #simple lookup
 ]
 
 MIDDLEWARE = [
